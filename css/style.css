@@ -1,0 +1,60 @@
+.my-section{
+    
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding:1px
+
+}
+.meditation{
+    background-image: url(https://i.ytimg.com/vi/p7TDpx0hsn4/maxresdefault.jpg);
+}
+.relax{
+    background-image: url(https://i.ytimg.com/vi/KqecsHPqX6Y/maxresdefault.jpg);
+  
+}
+.relax-header{
+    color: burlywood;
+    text-shadow: 10px 5px 4px white;
+    
+}
+.relax-p{
+    color: burlywood;
+    text-shadow: 4px 4px black;
+}
+
+header{
+    text-align: center;
+    font-size: 200px;
+    color: #bd93c3;
+    text-shadow: 8px 5px 1px purple;
+    font-family: fantasy;
+}
+
+p{
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+    margin: 100px 200px 100px 600px;
+    font-family: cursive;
+
+}
+body{
+    margin: 0;
+}
+
+.video{
+    position: relative;
+   
+}
+video{
+
+    height: 100vh;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
